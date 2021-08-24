@@ -24,7 +24,7 @@ namespace Week_5_Assignment_Test_Environment
                     Console.WriteLine("Insert math operator + (add), - (subtract), * (multiply), / (divide)");
                     var option = Console.ReadLine();
 
-
+                    // how to add mathmatical symbols and do basic math mathmatical calculations. 
                     if (option == "+")
                         Console.WriteLine($"Answer = {number1 + number2}");
 
@@ -37,9 +37,14 @@ namespace Week_5_Assignment_Test_Environment
                     else if (option == "/")
                         Console.WriteLine($"Answer = {number1 / number2}");
 
+                    //the final line of this else statement is if the end user puts in any option other than the provided mathmatical symbol
+                    //if done correctly the output will say that the option they provided is invalid
                     else
                         Console.WriteLine("Not a valid option. Try again.");
 
+                    //this is an if and while loop. 
+                    //selecting "y" will allow the user to do another calculation 
+                    //selecting "n" will allow you to close the program 
                     Console.WriteLine("Add another calculation? y/n");
                     if (Console.ReadLine() != "y")
                         adding = false;

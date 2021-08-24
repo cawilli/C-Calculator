@@ -50,6 +50,7 @@ namespace Week_5_Assignment_Test_Environment
                         adding = false;
                 }
             }
+            //this is for an exception. we will be learning more about exceptions later in the course but Jonathan helped me with this one. 
             catch (Exception e)
             {
                 Console.WriteLine("You must enter a number. Exiting program");

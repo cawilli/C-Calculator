@@ -12,10 +12,12 @@ namespace Week_5_Assignment_Test_Environment
             {
                 while (adding)
                 {
-
+                    // the below AskForUserInput  var is from the class created in the next window
+                    // the ask.input was also from the class created. See the AskForUserInput class created. 
                     var ask = new AskForUserInput();
                     var number1 = ask.input1();               
 
+                    //for integers you can use the convert.ToInt32 or int.Parse to receive number unput. Both will work. 
                     Console.WriteLine("Insert second number:");
                     int number2 = Convert.ToInt32(Console.ReadLine());                    
 
